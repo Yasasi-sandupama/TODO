@@ -11,5 +11,6 @@ def show_menu():
 
     def main():
         print("Welcome to the TO DO LIST APP!")
-        
+        tasks=[]
+
     
