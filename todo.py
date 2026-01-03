@@ -12,5 +12,27 @@ def show_menu():
     def main():
         print("Welcome to the TO DO LIST APP!")
         tasks=[]
+        while True:
+            show_menu()
+            choice = input("Enter your choice(1-5):")
+            if choice == "1":
+                view_tasks(tasks)    
+            elif choice == "2":
+                add_task(tasks)
+            elif choice =="3":
+                mark_done(tasks)
+            elif choice =="4":
+                delete_task(tasks)
+            elif choice == "5":
+                print("Bye Bye cutie pie! see you later!")
+                break
+            else:
+                print("Invalid choice. Please try again.")
+            
+            
+
+
+
+
 
     
