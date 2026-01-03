@@ -7,4 +7,9 @@ def show_menu():
     print("3.make if the task is completed")
     print("4.delete a task")
     print("5.exit")
+    print("="*30)
+
+    def main():
+        print("Welcome to the TO DO LIST APP!")
+        
     
